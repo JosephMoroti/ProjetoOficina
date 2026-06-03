@@ -1,23 +1,23 @@
-# 🛠️ Projeto Banco de Dados Oficina Mecânica
+#  Projeto Banco de Dados Oficina Mecânica
 
 ## 📖 Descrição
 Este projeto implementa um **banco de dados relacional** para simular o funcionamento de uma **oficina mecânica**.  
 O objetivo é gerenciar **clientes, veículos, ordens de serviço, técnicos, serviços, materiais e pagamentos**, além de permitir **consultas analíticas** que auxiliam na tomada de decisão.
 
 O sistema foi modelado para oferecer:
-- 📌 **Gestão de clientes**: cadastro de pessoas físicas e jurídicas (indústrias), permitindo análise de frotas e contratos corporativos.  
-- 🛠️ **Controle operacional**: registro de ordens de serviço, serviços executados, técnicos responsáveis e materiais aplicados.  
-- ⚠️ **Ativos críticos**: identificação de veículos/equipamentos essenciais para o cliente, priorizando sua manutenção.  
-- 🔧 **Manutenção preventiva**: classificação das ordens de serviço em preventiva, corretiva ou emergencial, permitindo análises de confiabilidade.  
-- 💰 **Gestão financeira**: acompanhamento de pagamentos, impostos e faturamento por cliente.  
-- ♻️ **Sustentabilidade**: rastreamento de materiais recicláveis e cálculo do percentual de ordens sustentáveis.  
+-  **Gestão de clientes**: cadastro de pessoas físicas e jurídicas (indústrias), permitindo análise de frotas e contratos corporativos.  
+-  **Controle operacional**: registro de ordens de serviço, serviços executados, técnicos responsáveis e materiais aplicados.  
+-  **Ativos críticos**: identificação de veículos/equipamentos essenciais para o cliente, priorizando sua manutenção.  
+-  **Manutenção preventiva**: classificação das ordens de serviço em preventiva, corretiva ou emergencial, permitindo análises de confiabilidade.  
+-  **Gestão financeira**: acompanhamento de pagamentos, impostos e faturamento por cliente.  
+-  **Sustentabilidade**: rastreamento de materiais recicláveis e cálculo do percentual de ordens sustentáveis.  
 
-> ⚠️ Todos os dados são fictícios.  
-> 🎯 O foco está em **boas práticas de modelagem** e **consultas SQL**, de forma clara e didática.
+>  Todos os dados são fictícios.  
+>  O foco está em **boas práticas de modelagem** e **consultas SQL**, de forma clara e didática.
 
 ---
 
-## 🏗️ Modelagem
+##  Modelagem
 
 O banco foi estruturado com as seguintes entidades principais:
 
@@ -33,7 +33,7 @@ O banco foi estruturado com as seguintes entidades principais:
 
 ---
 
-📊 Modelo EER
+ Modelo EER
 
 Esse modelo garante **normalização**, evita **redundâncias** e permite consultas analíticas sobre clientes, serviços, faturamento, sustentabilidade e confiabilidade de ativos.
 
@@ -50,7 +50,7 @@ Esse modelo garante **normalização**, evita **redundâncias** e permite consul
 
 ---
 
-## 🚀 Como Executar
+##  Como Executar
 
 1. Criar o banco de dados:
    ```sql
@@ -61,7 +61,7 @@ Esse modelo garante **normalização**, evita **redundâncias** e permite consul
 3. Popular com os INSERTs fornecidos.
 4. Rodar as queries analíticas para gerar insights.
 
-📈 Exemplos de Consultas Analíticas
+ Exemplos de Consultas Analíticas
 
 #  Total de imposto pago em todas as ordens?
 # 1020.00 R$
