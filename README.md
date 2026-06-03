@@ -40,7 +40,7 @@ Esse modelo garante **normalização**, evita **redundâncias** e permite consul
 
 ---
 
-## 🔮 Possíveis Extensões
+##  Possíveis Extensões
 
 - **Controle de estoque de materiais**: registrar entradas e saídas de peças.  
 - **Histórico de manutenção por veículo**: rastrear todas as OS vinculadas a um equipamento.  
