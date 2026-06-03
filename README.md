@@ -1,6 +1,6 @@
 #  Projeto Banco de Dados Oficina Mecânica
 
-## 📖 Descrição
+##  Descrição
 Este projeto implementa um **banco de dados relacional** para simular o funcionamento de uma **oficina mecânica**.  
 O objetivo é gerenciar **clientes, veículos, ordens de serviço, técnicos, serviços, materiais e pagamentos**, além de permitir **consultas analíticas** que auxiliam na tomada de decisão.
 
